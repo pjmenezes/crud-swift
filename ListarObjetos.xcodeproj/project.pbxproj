@@ -14,6 +14,7 @@
 		EB0DFCE129BA93AD0087B60C /* ListarObjetosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0DFCE029BA93AD0087B60C /* ListarObjetosTests.swift */; };
 		EB0DFCEB29BA93AD0087B60C /* ListarObjetosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0DFCEA29BA93AD0087B60C /* ListarObjetosUITests.swift */; };
 		EB0DFCED29BA93AD0087B60C /* ListarObjetosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0DFCEC29BA93AD0087B60C /* ListarObjetosUITestsLaunchTests.swift */; };
+		EB0DFCFA29BA94D30087B60C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0DFCF929BA94D30087B60C /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		EB0DFCE629BA93AD0087B60C /* ListarObjetosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListarObjetosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0DFCEA29BA93AD0087B60C /* ListarObjetosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarObjetosUITests.swift; sourceTree = "<group>"; };
 		EB0DFCEC29BA93AD0087B60C /* ListarObjetosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarObjetosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB0DFCF929BA94D30087B60C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				EB0DFCD229BA93AD0087B60C /* Assets.xcassets */,
 				EB0DFCD429BA93AD0087B60C /* ListarObjetos.entitlements */,
 				EB0DFCD529BA93AD0087B60C /* Preview Content */,
+				EB0DFCF929BA94D30087B60C /* Item.swift */,
 			);
 			path = ListarObjetos;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0DFCD129BA93AA0087B60C /* ContentView.swift in Sources */,
+				EB0DFCFA29BA94D30087B60C /* Item.swift in Sources */,
 				EB0DFCCF29BA93AA0087B60C /* ListarObjetosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
